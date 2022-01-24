@@ -1,0 +1,30 @@
+<html>
+<head>
+</head>
+<body>
+<label>Digite um número:</label>
+<input type = "number" id="inp1"><br>
+<button onclick="executa()">Clique</button>
+
+<script type="text/javascript">
+
+   function executa (numero){
+     
+	    numero = document.getElementById("inp1").value;
+	    numero = parseInt(numero);
+	
+	
+		if(numero % 2 == 0){
+			
+			document.write("O número é par " + numero);
+					}
+		else{
+	        document.write("O número é ímpar " + numero);
+			}
+		
+	
+
+}
+</script>
+</body>
+</html>
